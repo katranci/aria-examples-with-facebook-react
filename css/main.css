@@ -1,0 +1,5 @@
+body {padding: 5% 10%;}
+
+.collapsible-widget {margin: 1em 0;}
+.collapsible-widget__region {display: none;}
+.collapsible-widget__close-button {float: right;}
