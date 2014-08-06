@@ -13,7 +13,8 @@ var CollapsibleWidgetToggleButton = React.createClass({
     return (
         <button
           className="collapsible-widget__toggle-button"
-          onClick={this.handleClick}>Show / Hide</button>
+          onClick={this.handleClick}
+          aria-controls={this.props.regionId}>Show / Hide</button>
     );
   }
 });

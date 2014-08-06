@@ -8,7 +8,8 @@ var CollapsibleWidgetCloseButton = React.createClass({
     return (
         <button
             className="collapsible-widget__close-button"
-            onClick={this.close}>close</button>
+            onClick={this.close}
+            aria-controls={this.props.regionId}>close</button>
     );
   }
 });

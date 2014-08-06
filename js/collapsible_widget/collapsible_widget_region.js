@@ -12,6 +12,7 @@ var CollapsibleWidgetRegion = React.createClass({
         <div
           className="collapsible-widget__region"
           tabIndex="-1"
+          id={this.props.regionId}
           style={{display: display}}
           ariaCollapsed={this.props.isCollapsed}>
           {this.props.children}
